@@ -237,7 +237,7 @@ int main(){
     while (true){
         jobManager.checkCompletedJobs();
         string userIn; //string to hold user input
-        cout << "quash> ";
+        cout << "rysh> ";
         std::getline(cin, userIn); //get user input
         vector<Token> tokens = parseInput(userIn); //parse user input into tokens
         size_t pos = 0; // starting index = 0

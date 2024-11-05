@@ -11,8 +11,8 @@ SRCS = execute.cpp command_tree.cpp parser.cpp built_ins.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 # target executable
-quash: $(OBJS)
-	$(CXX) $(CXXFLAGS) -o quash $(OBJS)
+rysh: $(OBJS)
+	$(CXX) $(CXXFLAGS) -o rysh $(OBJS)
 
 # rule to create object files
 %.o: %.cpp
@@ -20,4 +20,4 @@ quash: $(OBJS)
 
 # clean rule
 clean:
-	rm -f $(OBJS) quash
+	rm -f $(OBJS) rysh 
