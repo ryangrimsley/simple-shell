@@ -5,6 +5,7 @@ A command line shell program(rysh) with some built-in command functionality. Bui
 Coded in C++ using skills learned from EECS 678. 
 
 ### Functionality
+ - Support for basic commands (ls, pwd, echo, wc, grep)
  - Background execution using '&':
  `rysh> sleep 10 &` will run in background 
  - Pipes(|) and redirects(<, >, >>):
